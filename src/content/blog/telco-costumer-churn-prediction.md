@@ -1,8 +1,8 @@
 ---
-title: "Telco-costumer-churn-prediction"
-description: "Consistency beats intensity. Here is a simple framework for designing a weekly routine that survives real life."
-pubDate: 2026-10-08
-tags: ["training", "habits", "beginner"]
+title: "Telco Customer Churn Prediction"
+description: "A full-stack Machine Learning application for predicting customer churn and generating automated retention strategies using advanced modeling."
+pubDate: 2026-07-11
+tags: ["machine-learning", "deep-learning", "python", "optuna", "prescriptive-analytics"]
 ---
 
 This project goes beyond standard predictive modeling by implementing a Prescriptive Analytics System to predict telecommunications customer churn and automatically recommend targeted retention strategies.
