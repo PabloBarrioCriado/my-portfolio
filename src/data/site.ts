@@ -1,19 +1,18 @@
 /**
  * Global site metadata and navigation.
- * Keeping this in one place avoids copy-pasted strings across layouts.
- * All values are template placeholders — edit them when you adopt the template.
  */
 export const site = {
-  name: 'Astro Wellness',
-  tagline: 'Train hard. Recover smart.',
+  name: 'Pablo Barrio Criado', // Puedes poner tus apellidos completos si prefieres
+  tagline: 'Data Science & Prescriptive Analytics',
   description:
-    'Astro Wellness is a modern gym for strength, conditioning, and recovery. Group classes, personal training, and nutrition coaching under one roof.',
-  // All contact details are placeholders — replace before going live.
-  email: 'hello@example.com',
-  phone: '+1 (555) 010-2030',
-  address: '123 Example Street · Example City, EX',
-  // Used by the sitemap and canonical URLs. Keep in sync with astro.config.mjs.
-  url: 'https://example.com',
+    'Data Science & Statistical Learning portfolio. Showcasing projects in Predictive Modeling, Survival Analysis, Machine Learning & Deep Learning.',
+  
+  email: 'pablobarrio.skl@gmail.com', 
+  phone: '+34 722 83 81 01', 
+  address: 'Spain', 
+  
+  //  URL de Vercel
+  url: 'https://my-portfolio-pied-two-35.vercel.app/', 
 } as const;
 
 export interface NavItem {
@@ -24,7 +23,7 @@ export interface NavItem {
 export const navItems: NavItem[] = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
-  { label: 'Services', href: '/services' },
-  { label: 'Blog', href: '/blog' },
+  // He quitado 'Services' para que no salga en el menú
+  { label: 'Projects', href: '/blog' }, // Mantenemos la ruta /blog pero mostramos 'Projects'
   { label: 'Contact', href: '/contact' },
 ];
