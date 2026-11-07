@@ -12,7 +12,7 @@ export const site = {
   address: 'Spain', 
   
   //  URL de Vercel
-  url: 'https://my-portfolio-pied-two-35.vercel.app/', 
+  url: 'https://my-portfolio-pied-two-35.vercel.app', 
 } as const;
 
 export interface NavItem {
