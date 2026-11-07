@@ -11,13 +11,13 @@ const posts = (await getCollection('blog')).sort(
 ---
 
 <BaseLayout
-  title="Blog"
-  description="Practical notes on training, recovery, and nutrition from the Astro Wellness coaches."
+  title="Projects"
+  description="A collection of my Data Science, Machine Learning, and Predictive Analytics projects."
 >
   <PageHero
-    eyebrow="Wellness journal"
-    title="Notes from the gym floor."
-    subtitle="No fitness-industry noise — just practical advice on training, recovery, and nutrition that survives contact with real life."
+    eyebrow="Portfolio"
+    title="Featured Projects."
+    subtitle="From statistical foundations to intelligent systems. Explore my latest work in data science, predictive modeling, and machine learning."
     compact
   />
 
@@ -43,8 +43,7 @@ const posts = (await getCollection('blog')).sort(
           </div>
         ) : (
           <p class="has-text-centered">
-            No posts yet. Check back soon — or <a href="/contact">tell us</a> what
-            you would like us to write about.
+            No projects yet. Check back soon!
           </p>
         )
       }
