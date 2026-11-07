@@ -1,5 +1,5 @@
 ---
-title: "Telco Customer Churn Prediction"
+title: "Telco Customer Churn Predictor & Retention Engine"
 description: "A full-stack Machine Learning application for predicting customer churn and generating automated retention strategies using advanced modeling."
 pubDate: 2026-07-11
 tags: ["machine-learning", "deep-learning", "python", "optuna", "prescriptive-analytics"]
