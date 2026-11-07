@@ -13,9 +13,9 @@ const posts = (await getCollection('blog'))
 <section class="section aw-section">
   <div class="container">
     <div class="aw-section-head">
-      <p class="aw-eyebrow mb-2">From the blog</p>
-      <h2 class="title is-2">Latest articles</h2>
-      <p class="subtitle is-6">Practical notes on training, recovery, and nutrition from the coaches.</p>
+      <p class="aw-eyebrow mb-2">Portfolio</p>
+      <h2 class="title is-2">Featured Projects</h2>
+      <p class="subtitle is-6">Detailed walkthroughs of my Machine Learning models, statistical analyses, and data-driven applications.</p>
     </div>
 
     {
@@ -28,21 +28,3 @@ const posts = (await getCollection('blog'))
                   title={post.data.title}
                   description={post.data.description}
                   pubDate={post.data.pubDate}
-                  tags={post.data.tags}
-                  href={`/blog/${post.id}/`}
-                  readingTime={readingTime(post.body ?? '')}
-                />
-              </div>
-            ))
-          }
-        </div>
-      ) : (
-        <p class="has-text-centered">No posts yet — check back soon.</p>
-      )
-    }
-
-    <div class="has-text-centered mt-6">
-      <a class="button is-medium is-outlined" href="/blog">Visit the blog</a>
-    </div>
-  </div>
-</section>
