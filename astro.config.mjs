@@ -6,7 +6,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   // Template placeholder — replace with your real domain before deploying
   // so the sitemap and canonical URLs point at the live site.
-  site: 'https://example.com',
+  site: 'https://my-portfolio-pied-two-35.vercel.app',
   integrations: [sitemap()],
   vite: {
     css: {
