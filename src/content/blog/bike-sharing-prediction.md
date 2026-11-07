@@ -1,5 +1,5 @@
 ---
-title: "Bike sharing predictor"
+title: "Bike Sharing Predictor"
 description: "Currently in development. Exploring the application of Deep Learning for advanced forecasting."
 pubDate: 2026-11-07
 tags: ["deep-learning", "pytorch", "llm", "work-in-progress"]
