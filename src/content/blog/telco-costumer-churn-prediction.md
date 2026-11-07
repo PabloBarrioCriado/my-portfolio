@@ -29,4 +29,4 @@ Built with a strict focus on statistical rigor and software engineering best pra
 - **Deployment & Eng:** Streamlit, Joblib, Custom OOP Transformers
 
 ---
-🔗 [View Source Code on GitHub](https://github.com/PabloBarrioCriado/telco-customer-churn-prediction) | 📊 [View Executive Presentation](https://github.com/PabloBarrioCriado/telco-customer-churn-prediction/blob/main/Pablo%20Barrio%20Criado.pdf)
+🔗 [View Source Code on GitHub](https://github.com/PabloBarrioCriado/telco-customer-churn-prediction) | 📊 [View Executive Presentation](https://github.com/PabloBarrioCriado/telco-customer-churn-prediction/blob/main/Pablo%20Barrio%20Criado.pdf) 🔗 [Try the Live Streamlit App Here](https://telco-customer-churn-prediction-pablobarriocriado.streamlit.app/) 
