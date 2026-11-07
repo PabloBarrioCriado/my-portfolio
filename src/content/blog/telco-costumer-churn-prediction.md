@@ -5,22 +5,28 @@ pubDate: 2026-07-11
 tags: ["machine-learning", "deep-learning", "python", "optuna", "prescriptive-analytics"]
 ---
 
-This project goes beyond standard predictive modeling by implementing a Prescriptive Analytics System to predict telecommunications customer churn and automatically recommend targeted retention strategies.
 
-### 🎯 The Business Problem
-In the telecom sector, predicting *who* is going to leave is only half the battle. The sales team needs to know *what to do* to stop it. The objective was to build a system that bridges the gap between machine learning predictions and actionable business decisions.
+This project goes beyond standard predictive modeling by implementing a **Prescriptive Analytics System**. It is a full-stack Machine Learning application designed to predict customer churn in a telecommunications company and, more importantly, automatically recommend targeted retention strategies for the sales team.
 
-### 🛠️ Technical Approach
-- **Languages:** Python
-- **Machine Learning:** LightGBM, XGBoost, Random Forest, SVM, Logistic Regression, KNN.
-- **Deep Learning:** PyTorch (optimized with Optuna)
-- **Methodology:** Data Cleaning, EDA, Feature Engineering (Granular vs. Aggregated variables), Model Evaluation (AUC & F1 with 95% CI), Prescriptive Analytics
+[👉 **Try the Live Streamlit App Here**](https://telco-customer-churn-prediction-pablobarriocriado.streamlit.app/)
 
-### 📊 Key Features & Results
-- Conducted a rigorous evaluation of 14 different modeling strategies, comparing tree-based algorithms, deep learning, and baseline models.
-- Achieved top predictive performance using **LightGBM and XGBoost** on granular variables, reaching an **AUC of 0.845** and F1 scores of ~0.628.
-- Successfully optimized a PyTorch Multilayer Perceptron (MLP) using Optuna, proving the viability of Deep Learning for this tabular data problem.
-- Translated these high-accuracy predictions into automated, personalized retention strategies for the sales team.
+### 💡 Business Value: The Retention Engine
+Predicting a customer leaving is only half the battle. This project includes a custom business logic engine that prescribes **Next Best Actions (NBA)** based on specific user profiles:
+- **Contract Upgrade Tactics:** Offers targeted discounts for high-risk, month-to-month customers.
+- **Price Optimization:** Flags high-billing users for service audits to prevent price-based churn.
+- **Value-Added Loyalty:** Automatically suggests tech support promotions, driven by the statistical insight that customers with active technical assistance have significantly higher retention rates.
+
+### 🧠 Technical Architecture & Rigor
+Built with a strict focus on statistical rigor and software engineering best practices:
+- **Nested Cross-Validation:** Rigorously selected the best algorithms without data leakage, avoiding the common pitfalls of a simple `train_test_split`.
+- **Optimal Decision Threshold:** Instead of defaulting to a 0.5 probability, the decision boundary was mathematically optimized using **Youden's J Statistic (0.48)** to balance Sensitivity and Specificity.
+- **Custom Scikit-Learn Transformers:** Built object-oriented transformers (`BaseEstimator`, `TransformerMixin`) integrated into a robust pipeline (`ServiceAggregator`) to automate data preprocessing.
+- **Safe Memory Management:** Implemented runtime monkey-patching to handle specific serialization incompatibilities between strict NumPy versions and Scikit-learn categorical encoders.
+
+### 🛠️ Technology Stack
+- **Machine Learning:** Scikit-learn, SciPy, XGBoost, LightGBM
+- **Data & Viz:** Pandas, NumPy, Matplotlib, Seaborn
+- **Deployment & Eng:** Streamlit, Joblib, Custom OOP Transformers
 
 ---
-🔗 [View Source Code on GitHub](https://github.com/PabloBarrioCriado/telco-customer-churn-prediction)
+🔗 [View Source Code on GitHub](https://github.com/PabloBarrioCriado/telco-customer-churn-prediction) | 📊 [View Executive Presentation](https://github.com/PabloBarrioCriado/telco-customer-churn-prediction/blob/main/Pablo%20Barrio%20Criado.pdf)
