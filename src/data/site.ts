@@ -2,7 +2,7 @@
  * Global site metadata and navigation.
  */
 export const site = {
-  name: 'Pablo Barrio Criado', // Puedes poner tus apellidos completos si prefieres
+  name: 'Pablo Barrio Criado', 
   tagline: 'Data Science & Prescriptive Analytics',
   description:
     'Data Science & Statistical Learning portfolio. Showcasing projects in Predictive Modeling, Survival Analysis, Machine Learning & Deep Learning.',
@@ -23,7 +23,7 @@ export interface NavItem {
 export const navItems: NavItem[] = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
-  // He quitado 'Services' para que no salga en el menú
-  { label: 'Projects', href: '/blog' }, // Mantenemos la ruta /blog pero mostramos 'Projects'
+  
+  { label: 'Projects', href: '/blog' }, 
   { label: 'Contact', href: '/contact' },
 ];
