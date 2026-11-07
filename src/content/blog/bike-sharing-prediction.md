@@ -1,12 +1,6 @@
 ---
-title: "Bike-sharing-prediction-engine"
-description: "Walking into the weight room for the first time is intimidating. Here is the honest, practical version of how to start."
-pubDate: 2026-09-10
-tags: ["strength", "beginner", "technique"]
----
----
-title: "Neural Networks & LLMs applied to Time Series"
-description: "Currently in development. Exploring the application of Deep Learning and Large Language Models for advanced forecasting."
+title: "Bike sharing predictor"
+description: "Currently in development. Exploring the application of Deep Learning for advanced forecasting."
 pubDate: 2026-11-07
 tags: ["deep-learning", "pytorch", "llm", "work-in-progress"]
 ---
@@ -18,7 +12,7 @@ tags: ["deep-learning", "pytorch", "llm", "work-in-progress"]
 The goal of this ongoing project is to explore how modern Deep Learning architectures (like Transformers) and Large Language Models (LLMs) can be adapted for complex Time Series Forecasting, comparing them against traditional statistical methods.
 
 ### 🛠️ Tech Stack in Exploration
-- **Frameworks:** PyTorch, Keras
+- **Frameworks:** PyTorch, 
 - **Architectures:** LSTMs, Transformers, foundational LLMs
 - **Environment:** Jupyter, GPU acceleration
 
