@@ -14,7 +14,7 @@ In the telecom sector, predicting *who* is going to leave is only half the battl
 - **Languages:** Python
 - **Machine Learning:** LightGBM, XGBoost, Random Forest, SVM, Logistic Regression, KNN.
 - **Deep Learning:** PyTorch (optimized with Optuna)
-- **Methodology:** Feature Engineering (Granular vs. Aggregated variables), Model Evaluation (AUC & F1 with 95% CI), Prescriptive Analytics
+- **Methodology:** Data Cleaning, EDA, Feature Engineering (Granular vs. Aggregated variables), Model Evaluation (AUC & F1 with 95% CI), Prescriptive Analytics
 
 ### 📊 Key Features & Results
 - Conducted a rigorous evaluation of 14 different modeling strategies, comparing tree-based algorithms, deep learning, and baseline models.
