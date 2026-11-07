@@ -28,3 +28,21 @@ const posts = (await getCollection('blog'))
                   title={post.data.title}
                   description={post.data.description}
                   pubDate={post.data.pubDate}
+                  tags={post.data.tags}
+                  href={`/blog/${post.id}/`}
+                  readingTime={readingTime(post.body ?? '')}
+                />
+              </div>
+            ))
+          }
+        </div>
+      ) : (
+        <p class="has-text-centered">No projects yet — check back soon.</p>
+      )
+    }
+
+    <div class="has-text-centered mt-6">
+      <a class="button is-medium is-outlined" href="/blog">View all projects</a>
+    </div>
+  </div>
+</section>
