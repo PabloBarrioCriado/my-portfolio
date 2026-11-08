@@ -7,8 +7,7 @@ export const site = {
   description:
     'Data Science & Statistical Learning portfolio. Showcasing projects in Predictive Modeling, Survival Analysis, Machine Learning & Deep Learning.',
   
-  email: 'pablobarrio.skl@gmail.com', 
-  phone: '+34 722 83 81 01', 
+  email: 'pablobarrio.skl@gmail.com',   
   address: 'Spain', 
   
   //  URL de Vercel
